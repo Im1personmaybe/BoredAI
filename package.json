@@ -1,0 +1,13 @@
+{
+  "name": "insanity-ai-render",
+  "version": "1.0.0",
+  "private": true,
+  "description": "BoredAF with a server-side OpenRouter chat endpoint",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
