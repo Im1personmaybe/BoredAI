@@ -1,0 +1,16 @@
+services:
+  - type: web
+    name: boredaf
+    runtime: node
+    plan: free
+    buildCommand: npm install
+    startCommand: npm start
+    envVars:
+      - key: OPENROUTER_API_KEY
+        sync: false
+      - key: PUBLIC_URL
+        sync: false
+      - key: TMDB_API_KEY
+        sync: false
+      - key: YOUTUBE_API_KEY
+        sync: false
